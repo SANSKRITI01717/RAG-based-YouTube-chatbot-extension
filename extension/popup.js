@@ -1,4 +1,4 @@
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://youtube-rag-chatbot-v2rs.onrender.com";
 
 let videoId = null;
 
