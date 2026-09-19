@@ -27,9 +27,8 @@ def get_transcript(video_id):
         return text
 
     except Exception as e:
-        print("Transcript error:", e)
-        return None
-
+        print("Transcript error:", repr(e))
+        raise e
 
 def split_transcript(text):
     splitter = RecursiveCharacterTextSplitter(
