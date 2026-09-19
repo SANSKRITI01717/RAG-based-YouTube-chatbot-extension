@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+youtube-transcript-api
+pinecone
+langchain-text-splitters
+huggingface_hub
+numpy
